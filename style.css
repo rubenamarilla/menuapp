@@ -1,0 +1,58 @@
+body { /* Aplica a todo el body*/
+    background-color: #eefdefde;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333333;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+h2 {
+    text-align: center;
+    
+}
+.menu-item {
+    margin-top: 1%;
+    height: 2rem;
+    border-radius: 10px;
+    max-width: 100%;
+    background-image: none;
+}
+
+.menu-item:hover {
+    color: #818181;
+    background-color: #7cdb79a5;
+}
+
+.precio {
+    float: right;
+    margin-right: 3%;
+}
+
+.producto {
+    float: left;
+    margin-left: 3%;
+}
+.categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 50%;
+}
+/*
+Esta clase permite centrar verticalmente los items en el div, tener en cuenta que si aumenta el alto del div contenedor,
+el line-height acá también debería aumentar al mismo valor.
+*/
+.item {
+    vertical-align: middle;
+    line-height: 2rem; 
+}
+
+#lista-menu {
+    margin: auto; /* con esto se logra que este centrado horizontalmente */
+    width: 70%;
+    font-size: 17px;
+    font-weight: 600;
+}
